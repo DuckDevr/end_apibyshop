@@ -10,8 +10,8 @@
             
             <p class="m-0">เปิด / ปิด<span class="text-danger">*</span></p>
             <select class="form-control mb-2"  id="st">
-                <option value="on" <?php if ($byshop_status == "on") {echo "selected";} ?> style="color: #000">On</option>
-                <option value="off" <?php if ($byshop_status == "off") {echo "selected";} ?> style="color: #000">Off</option>
+                <option value="on" <?php if ($byshop_status == "on") {echo "$selected";} ?> style="color: #000">On</option>
+                <option value="off" <?php if ($byshop_status == "off") {echo "$selected";} ?> style="color: #000">Off</option>
             </select>
 
             <div class="mb-2 ">
